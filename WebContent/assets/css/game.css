@@ -1,0 +1,76 @@
+body{
+			margin:0; padding:0;
+		}
+				
+		/*--LAYOUT--*/
+		#game {
+			position: relative;
+			width: 800px;
+			height: 600px;
+			overflow: hidden;
+			margin: 0 auto;
+		}
+		
+		.scene {
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			background:yellow;
+		}		
+		
+		/*--MENU-------- */
+		#menu-scene{
+			top: 0;	
+			z-index:100;			
+		}
+					
+		#menu-scene.hide-scene {
+			top: -600px;		
+			-webkit-transition: top .3s linear;				
+		}
+		
+		#menu-scene h1{
+			font-family: sans-serif;
+			color:blue;
+			text-align:center;
+			margin-top:10em;
+		}
+		
+		#menu-scene ul{
+			list-style:none;
+		}
+		
+		#menu-scene ul li{
+			text-align:center;
+		}
+		
+		/* --CURTAIN --*/          	   			
+		#curtain{
+			position:absolute;
+			top:-400px; left:0;
+			width:100%;
+			height:400px;	
+			z-index:1000;	
+			background: rgba(200, 200, 200, 0.5);			
+		}
+						
+		/*--CHAT--*/			
+		#chat{
+			width:100%;
+			height:200px;
+			background:green;
+			overflow: auto;
+		}
+			
+		#chat p{
+			padding-left:1em;
+			cursor:url(../img/glyphicons_184_volume_up.png), auto;
+		}
+						
+		p.drummer{
+			background: url(../img/faces/drummer.png) no-repeat 0 0;
+		}
+		
+		p.gnome{
+			background: url(../img/faces/gnome.png) no-repeat 0 0;
+		}

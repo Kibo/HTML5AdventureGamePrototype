@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    <meta charset="utf-8">
+	<title>Crafty Adventure - demo</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  	<meta name="description" content="Crafty adventure game demo.">
+  	<meta name="author" content="Tomas Jurman">	
+    <link href="assets/css/game.css" rel="stylesheet">         
+  </head>
+
+  <body>
+    
+    <div id="game">	
+		<section id="menu-scene" class="scene show-scene">
+			<h1>Crafty Adventure game - demo</h1>		
+			<ul>
+				<li><a href="#" onclick="$('#menu-scene').addClass('hide-scene');"><span>Play</span></a></li>
+			</ul>			
+		</section>
+				
+		<section id="game-scene" class="scene">
+			<div id="curtain"></div>
+			<div id="cr-stage"></div>													
+			<div id="chat"></div>																									
+		</section>						
+	</div>
+	
+  </body>
+  
+  <script data-main="libs/main.js" src="libs/require-jquery/require-jquery.js"></script> 
+</html>
