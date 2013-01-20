@@ -55,11 +55,7 @@ define([
 				case 'choice':
 					// method from TalkableViews component
 					this.choiseView( sentence );			
-				  	break;
-				case 'exercise':
-					// method from TalkableViews component
-					this.exerciseView( sentence );				
-					break;
+				  	break;			
 				default:			
 					console.log('do nothing');
 			}      	    	   
@@ -185,51 +181,7 @@ define([
 	    		.appendTo( this.curtainContainer );	    		
 	    	}    	
 	    	this.curtainContainer.animate({top:0}, this.CURTAIN_DELAY);
-	    }, 
-	    
-	    /**
-	     * Show Exercice.
-	     * 
-	     * @param {Object} sentence 	Example:{id:1, type:"exercise", assignments:[{},{}] }	        
-	     */
-	    exerciseView: function( exercise ){
-	    	var self = this;
-	    	this.curtainContainer.empty();
-	    	$('<h3>' +  exercise.text + '</h3>')
-	    	.addClass(exercise.actor)
-	    	.appendTo( this.curtainContainer );
-	    	
-	    	for(var index=0; index < exercise.assignments.length; index++){
-	    		    	    
-	    		$('<p></p>')
-	    		.append( $('<label>' +  exercise.assignments[index].assignment + '</label>') )
-	    		.append( $('<input type="text" value="456" placeholder="Write answer." data-results="'+ exercise.assignments[index].results.join("|") +'" />') )
-	    		.appendTo( this.curtainContainer );
-	    		    		    		    		  
-	    	}
-	    	
-	    	var btnDone = $('<input type="button" value="Done" />')
-	    	.click(function( e ){    		
-	    		self.evaluate();
-	    	});
-	    		
-	    	$('<p></p>')
-	    	.append( btnDone )
-	    	.appendTo( this.curtainContainer );
-	    	    	
-	    	this.curtainContainer.animate({top:0}, this.CURTAIN_DELAY);
-	    },     
-	    
-	    /**
-	     * Evaluate Exercice.
-	     *            
-	     */
-	    evaluate:function(){    	 
-	    	 $(this.curtainContainer.selector + ' input[type="text"]').each(function(i){
-	    		 console.log( $(this).attr('data-results').indexOf( $(this).val().trim() ) !== -1 ); 
-	    	 });
-	    	
-	    },
+	    }, 	    	  
 	});
 
 });

@@ -12,7 +12,7 @@ It is possible to add various types of converzation and select the behavior of t
 **See:**
 - [game/components/talkable.js](https://github.com/Kibo/HTML5AdventureGamePrototype/blob/master/WebContent/game/components/talkable.js "talkable component")
 - [game/dialog/*](https://github.com/Kibo/HTML5AdventureGamePrototype/tree/master/WebContent/game/dialogs "dialogs")
-- [test/talkable.html](https://github.com/Kibo/HTML5AdventureGamePrototype/blob/master/WebContent/test/talkable.html "test")
+- [test/talkable_tests.js](https://github.com/Kibo/HTML5AdventureGamePrototype/blob/master/WebContent/test/talkable_tests.js "talkable_tests")
 
 **This sample is inspired by Crafty game prototype:**
 - [Crafty: GameThesis](https://github.com/paxell/GameThesis "Crafty adventure prototype")
