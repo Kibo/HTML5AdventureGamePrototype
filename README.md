@@ -2,9 +2,12 @@
 
 This HTML5 game prototype is build over [Crafty HTML5 game engine](http://craftyjs.com/ "Crafty HTML5 game engine").
 
-This prototype is trying to show how to design a **conversation between characters in an adventure game** based on the conversation.
+This prototype is trying to show how to design a **conversation between characters in an adventure game** based on interviews.
 
 It is possible to add various types of converzation and select the behavior of the characters based on their answers.
+
+**Demo:**
+- [prototype demo](http://crafty.kibo.cz/demo "Prototype demo")
 
 **See:**
 - [game/components/talkable.js](https://github.com/Kibo/HTML5AdventureGamePrototype/blob/master/WebContent/game/components/talkable.js "talkable component")
@@ -15,6 +18,7 @@ It is possible to add various types of converzation and select the behavior of t
 - [Craty: GameThesis](https://github.com/paxell/GameThesis "Crafty adventure prototype")
 
 **Contact me**
+
 I will be grateful for the constructive comments.
 
 
