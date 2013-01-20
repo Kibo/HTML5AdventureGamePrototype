@@ -15,11 +15,13 @@ It is possible to add various types of converzation and select the behavior of t
 - [test/talkable.html](https://github.com/Kibo/HTML5AdventureGamePrototype/blob/master/WebContent/test/talkable.html "test")
 
 **This sample is inspired by Crafty game prototype:**
-- [Craty: GameThesis](https://github.com/paxell/GameThesis "Crafty adventure prototype")
+- [Crafty: GameThesis](https://github.com/paxell/GameThesis "Crafty adventure prototype")
 
 **Contact me**
 
 I will be grateful for the constructive comments.
+- [Crafty google groups](https://groups.google.com/forum/#!forum/craftyjs "Crafty google groups") TODO
+- tomasjurman@gmail.com
 
 
 
