@@ -20,7 +20,7 @@ It is possible to add various types of converzation and select the behavior of t
 **Contact me**
 
 I will be grateful for the constructive comments.
-- [Crafty google groups](https://groups.google.com/forum/#!forum/craftyjs "Crafty google groups") TODO
+- [Crafty google groups](https://groups.google.com/forum/#!msg/craftyjs/AIsnKKwQ2ow/s3AfR1n-yZUJ "Crafty google groups") TODO
 - tomasjurman@gmail.com
 
 
