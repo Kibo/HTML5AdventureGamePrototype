@@ -7,11 +7,11 @@ This prototype is trying to show how to design a **conversation between characte
 It is possible to add various types of converzation and select the behavior of the characters based on their answers.
 
 **Screenshot**
-[![Adventure game](https://raw.github.com/Kibo/HTML5AdventureGamePrototype/master/WebContent/assets/img/adventureScreenshot.png)](#)
+[![Adventure game](https://raw.github.com/Kibo/HTML5AdventureGamePrototype/master/WebContent/assets/img/adventureScreenshot.png)](http://kibo.github.com/HTML5AdventureGamePrototype/)
 
 
 **Demo:**
-- [prototype demo](#)
+- [prototype demo](http://kibo.github.com/HTML5AdventureGamePrototype/)
 
 **See:**
 - [game/components/talkable.js](https://github.com/Kibo/HTML5AdventureGamePrototype/blob/master/WebContent/game/components/talkable.js "talkable component")
